@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: This is to test VIZIV application
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 181.843 s - in This is to test VIZIV application
