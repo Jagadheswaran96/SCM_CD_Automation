@@ -1,0 +1,25 @@
+2024-08-20 11:35:16.902 INFO  cds.scm.step_definitions.Common_Step_Def [main] [cds.scm.step_definitions.Common_Step_Def.beforeScenario(Common_Step_Def.java:37)] - Execution started
+2024-08-20 11:35:16.949 INFO  cds.scm.step_definitions.Common_Step_Def [main] [cds.scm.step_definitions.Common_Step_Def.beforeScenario(Common_Step_Def.java:42)] - Instantiating the common utils
+2024-08-20 11:35:16.949 INFO  cds.scm.step_definitions.Common_Step_Def [main] [cds.scm.step_definitions.Common_Step_Def.beforeScenario(Common_Step_Def.java:44)] - Loading the properties file
+2024-08-20 11:35:16.980 INFO  cds.scm.step_definitions.Common_Step_Def [main] [cds.scm.step_definitions.Common_Step_Def.beforeScenario(Common_Step_Def.java:48)] - Checking the driver is null or not
+2024-08-20 11:35:17.003 INFO  cds.scm.step_definitions.Common_Step_Def [main] [cds.scm.step_definitions.Common_Step_Def.beforeScenario(Common_Step_Def.java:52)] - Driver is null. Instantiating it!
+2024-08-20 11:35:35.399 INFO  cds.scm.webdriver_manager.DriverManager [main] [cds.scm.webdriver_manager.DriverManager.launchBrowser(DriverManager.java:58)] - Launching edge
+2024-08-20 11:36:20.690 ERROR cds.scm.step_definitions.Common_Step_Def [main] [cds.scm.step_definitions.Common_Step_Def.login(Common_Step_Def.java:90)] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://auth.testcenturyvms.com/Http2Fa/Index". Current url: "https://authqa.testcenturyvms.com/Http2Fa/Index" (tried for 15 second(s) with 500 milliseconds interval)
+2024-08-20 11:36:20.752 ERROR cds.scm.step_definitions.Common_Step_Def [main] [cds.scm.step_definitions.Common_Step_Def.beforeScenario(Common_Step_Def.java:61)] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=127.0.2651.105)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d4ab51004d0fb24e52725e2be9b41c12, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.105, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50039}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\Jagadhez\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50039/devtoo..., se:cdpVersion: 127.0.2651.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4ab51004d0fb24e52725e2be9b41c12
+2024-08-20 11:36:20.916 ERROR cds.scm.step_definitions.Common_Step_Def [main] [cds.scm.step_definitions.Common_Step_Def.afterScenario(Common_Step_Def.java:74)] - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: MicrosoftEdge=127.0.2651.105)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d4ab51004d0fb24e52725e2be9b41c12, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.105, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50039}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\Jagadhez\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50039/devtoo..., se:cdpVersion: 127.0.2651.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4ab51004d0fb24e52725e2be9b41c12
