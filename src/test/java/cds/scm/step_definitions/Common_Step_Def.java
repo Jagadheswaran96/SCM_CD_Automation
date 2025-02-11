@@ -120,7 +120,7 @@ public class Common_Step_Def {
 		byte[] encrypt = Base64.getEncoder().encode(password.getBytes());
 		System.out.println("Password is "+ new String(encrypt));
 		byte[] decrypt = Base64.getDecoder().decode(encrypt);
-		//System.out.println("decrypted password is " + new String(decrypt));
+		System.out.println("decrypted password is " + new String(decrypt));
 		return password;
 	}
 
