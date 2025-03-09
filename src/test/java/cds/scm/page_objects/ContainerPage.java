@@ -66,7 +66,7 @@ public class ContainerPage {
 				LOGGER.info("Shipment drop down is selected");
 			} catch (Exception e2) {
 				LOGGER.info("element not found. please check the SHIPMENT locator used");
-				System.out.println("GitHub-Jenkins Webhook");
+				//System.out.println("GitHub-Jenkins Webhook");
 			}
 		}
 	}
